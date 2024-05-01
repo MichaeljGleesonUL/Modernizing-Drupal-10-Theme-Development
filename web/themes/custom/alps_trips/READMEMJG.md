@@ -19,4 +19,11 @@
 * Or `yarn run build:dev`
 * This will have to be done for every css change.
 
+## browsersync
+With the addon added.
+* `ddev browsersync` and leave running.
+* and in another shell
+* `$ddev watch` and leave running
+* N.B. the ULR for Brrowsersync should not be used for admin only frontend dev use other URL's for admin and interacting with the site.
+
 
