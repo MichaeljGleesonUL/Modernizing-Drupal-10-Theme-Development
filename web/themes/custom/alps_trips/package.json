@@ -4,7 +4,6 @@
   "description": "Alps Trips dependencies",
   "author": "Luca Lusso",
   "license": "GPL-3.0",
-
   "dependencies": {
     "-": "^0.0.1"
   },
