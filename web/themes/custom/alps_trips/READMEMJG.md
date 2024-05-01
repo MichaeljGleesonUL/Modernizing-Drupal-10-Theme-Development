@@ -26,4 +26,8 @@ With the addon added.
 * `$ddev watch` and leave running
 * N.B. the ULR for Brrowsersync should not be used for admin only frontend dev use other URL's for admin and interacting with the site.
 
+## Backstop JS
+* `$ddev backstop test`
+* Look at report in .ddev/tests/backstop/backstop_data/html_report/index.html
+*
 
