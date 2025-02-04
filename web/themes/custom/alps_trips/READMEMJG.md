@@ -12,7 +12,7 @@ To start from chapter 2
 * `sudo n lts `
 *  `n prune`
 * may need to restart the ddev ssh shell.
-* I think i fixed this with updating the .ddev/config node version to 18. 
+* I think i fixed this with updating the .ddev/config node version to 18.
 
 2. To build yarn node_modules folder.
  - From the themes custom alps_trips folder.
