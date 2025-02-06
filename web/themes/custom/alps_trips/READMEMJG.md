@@ -46,4 +46,12 @@ ddev yarn --cwd=web/themes/custom/alps_trips lint:css
 ```
 
 * Had to remove max-line-length and function-whitespace-after from core/.stylelintrc.json
-* there is prob a patch to remove this from Drupal.
+* there is prob a patch to remove this from Drupal. There does appear to be an newer version of the file without the above.
+
+## EsLint
+```
+ddev yarn --cwd=web/themes/custom/alps_trips lint:js
+```
+Had to set the proper eslint dependency back to  "eslint": "^8.2.0", as it broke seom stuff otherwise.
+
+
