@@ -5,6 +5,9 @@ namespace Drupal\starterkit_theme;
 use Drupal\Component\Serialization\Yaml;
 use Drupal\Core\Theme\StarterKitInterface;
 
+/**
+ * {@inheritDoc}
+ */
 final class StarterKit implements StarterKitInterface {
 
   /**

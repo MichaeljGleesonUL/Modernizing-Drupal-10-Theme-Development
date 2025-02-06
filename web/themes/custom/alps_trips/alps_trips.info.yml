@@ -2,7 +2,7 @@ name: alps_trips
 type: theme
 'base theme': stable9
 starterkit: true
-version: VERSION
+description: "A theme from the wonderful packt book modernizing Drupal 10 Theme Development"
 libraries:
   - alps_trips/base
   - alps_trips/messages

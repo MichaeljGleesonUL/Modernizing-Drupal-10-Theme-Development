@@ -38,7 +38,7 @@ With the addon added.
 * Look at report in .ddev/tests/backstop/backstop_data/html_report/index.html
 *
 
-## Linters and code sniffers. 
+## Linters and code sniffers.
 
 ### Stylelint
 
