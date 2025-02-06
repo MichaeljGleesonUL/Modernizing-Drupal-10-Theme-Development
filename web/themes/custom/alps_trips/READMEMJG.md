@@ -39,3 +39,11 @@ With the addon added.
 *
 
 
+## Stylelint
+
+```
+ddev yarn --cwd=web/themes/custom/alps_trips lint:css
+```
+
+* Had to remove max-line-length and function-whitespace-after from core/.stylelintrc.json
+* there is prob a patch to remove this from Drupal.

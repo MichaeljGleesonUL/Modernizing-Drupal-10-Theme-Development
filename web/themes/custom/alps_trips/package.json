@@ -12,6 +12,10 @@
     "css-loader": "^7.0.0",
     "mini-css-extract-plugin": "^2.8.1",
     "postcss-loader": "^8.1.1",
+    "stylelint": "^16.14.1",
+    "stylelint-config-standard": "^37.0.0",
+    "stylelint-config-tailwindcss": "^0.0.7",
+    "stylelint-order": "^6.0.4",
     "tailwind": "^4.0.0",
     "tailwindcss": "3",
     "webpack": "^5.91.0",
@@ -21,6 +25,7 @@
     "build": "webpack --config webpack.config.js",
     "build:dev": "webpack --config webpack.config.js --mode development",
     "start": "webpack --watch",
-    "start:dev": "webpack --watch --mode development"
+    "start:dev": "webpack --watch --mode development",
+    "lint:css": "stylelint \"**/*.css\""
   }
 }
