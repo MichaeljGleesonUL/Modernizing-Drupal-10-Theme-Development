@@ -6,7 +6,10 @@ To start from chapter 2
 2. `ddev build`
 ## Css and js builders
 
-~~1. node verison is not going to work need to update.~~
+### Updating node via node version manager n
+
+Sometimes I need to update the version of Node, as the newer version of node packages need a newer version of node to do this do the following:
+
 * `$ ddev ssh `
 * `npm install n -g `
 * `sudo n lts `
