@@ -11,6 +11,7 @@ active_toolbar_items:
   forms: forms
   memory: memory
   request: request
+  services: services
   theme: theme
   time: time
   user: user
@@ -25,7 +26,6 @@ active_toolbar_items:
   logs: '0'
   mail: '0'
   routing: '0'
-  services: '0'
   state: '0'
   translations: '0'
 query_sort: source
