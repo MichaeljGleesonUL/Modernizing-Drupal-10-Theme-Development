@@ -4,6 +4,9 @@ To start from chapter 2
 
 1. `ddev start`
 2. `ddev build`
+   3. This rebuild the entier site Db and content, will delete aany content or admin stuff. possibly even code. CHECK about the code.
+
+
 ## Css and js builders
 
 ### Updating node via node version manager n
