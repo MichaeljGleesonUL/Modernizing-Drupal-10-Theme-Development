@@ -10,3 +10,12 @@
     }
   };
 }(jQuery));
+
+(function ($) {
+  $('body').css('background-color','yellow');
+}(jQuery))
+
+
+jQuery(".forecast-element").hide()
+
+jQuery(".forecast-element").slideDown("Slow")
