@@ -30,3 +30,9 @@ regions:
   footer: Footer
   page_top: Page top
   page_bottom: Page bottom
+
+components:
+  namespaces:
+    atoms: ../../../../storybook/stories/01-atoms
+    molecules: ../../../../storybook/stories/02-molecules
+    organisms: ../../../../storybook/stories/03-organisms
