@@ -19,3 +19,16 @@ function alps_trips_preprocess_image_widget(array &$variables) {
     unset($data['preview']);
   }
 }
+
+/**
+ *
+ * Implements hook_theme_suggestions_HOOK().
+ *
+ * @return void
+ *
+ */
+function alps_trips_theme_suggestions_region_alter( array &$suggestions, array $variables): void{
+  if (!empty($variables['elements']['#region'])) {
+    $suggestions[] = $suggestions[] = 'region__' . $variables['elements']['#region'] . '__front';
+  }
+}
