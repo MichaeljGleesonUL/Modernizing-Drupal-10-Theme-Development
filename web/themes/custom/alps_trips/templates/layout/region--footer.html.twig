@@ -1,0 +1,21 @@
+{#{{ dump() }}#}
+{% set social %}
+  {% for social in socials %}
+    {{ include('@atoms/social.html.twig',{
+      'svg': social.svg,
+      'url': social.url,
+    }
+    )
+    }}
+  {% endfor %}
+{% endset %}
+
+{#{{ content }}#}
+
+{{ include('@organisms/footer.html.twig',{
+  'title': site_name,
+  'menu' : content
+
+
+})
+}}
