@@ -1,0 +1,31 @@
+{#{{ dump(content) }}#}
+{#{{ dump(content['#items']) }}#}
+{#{{ dump(content['#items']['user.logout']['url']) }}#}
+
+{#{% set atitle = content['#items']['user.logout']['title'] %}#}
+{#{% set aurl = content['#items']['user.logout']['url'] %}#}
+{#      {{#}
+{#      include('@atoms/menu-item-secondary.html.twig',{#}
+{#        'title': atitle,#}
+{#        'url': aurl,#}
+{#      })#}
+{#      }}#}
+{% set items = content['#items'] %}
+ {% if items %}
+  {% set rendered_items %}
+    {% for item in items%}
+      {{
+      include('@atoms/menu-item-secondary.html.twig',{
+        'title': item.title,
+        'url': item.url,
+      })
+      }}
+    {% endfor %}
+  {% endset %}
+
+  {{ include('@molecules/menu.html.twig',{
+    'items': rendered_items,
+  })
+  }}
+{% endif %}
+

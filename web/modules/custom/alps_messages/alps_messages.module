@@ -9,7 +9,7 @@ function alps_messages_page_top(array &$page_top): void {
   if ($theme == 'alps_trips' && $message) {
     $page_top[] = [
       '#markup' =>
-        '<div class="page-top">
+        '<div class="page-top p-1">
             <div class="page-top__message">' . $message . '</div>
         </div>',
     ];
